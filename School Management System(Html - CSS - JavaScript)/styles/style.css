@@ -1,0 +1,36 @@
+.main {
+    width: 85%;
+    margin: auto;
+}
+.img-wrapper img {
+    width: 100%;
+}
+.main-heading {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(206, 88, 20);
+    font-family: 'Port Lligat Slab';
+    letter-spacing: 1.6px;
+    font-style: italic;
+}
+.main-content {
+    font-size: 20px;
+    color: white;
+    font-family: 'Rubik';
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    word-spacing: 2.8px;
+}
+.main-content:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+.divader {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.divader:nth-of-type(4) {
+    margin-bottom: 0;
+}

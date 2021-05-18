@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASSIGNMENTS</title>
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="styles/courses.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="header-title">
+                        <h1>School of Arts & Sciences</h1>
+                        <h2>Administration page</h2>
+                    </div>
+                    <ul class="navbar-list">
+                        <li><a href="students.html">STUDENTS</a></li>
+                        <li><a href="courses.html">COURSES</a></li>
+                        <li><a href="trainers.html">TRAINERS</a></li>
+                        <li><a href="assignments.html">ASSIGNMENTS</a></li>
+                        <li><a href="../index.html">HOME</a></li>
+                    </ul>
+                </header>
+                <header class="header">
+                    <ul class="navbar-list">
+                        <li><a href="course_student.html">STUDENT-COURSE</a></li>
+                        <li><a href="course_trainer.html">TRAINER-COURSE</a></li>
+                        <li><a href="course_assignment.html">ASSIGNMENT-COURSE</a></li>
+                        <li><a href="course_assignment_student.html">ASSIGNMENT-STUDENT-COURSE</a></li>
+                    </ul>
+                </header>
+                <main class="main">
+                    <div class="tab tab-1">
+                        <h1 class="main-header">Assignments Input Form</h1>
+                        <p>Assignment Title: <input type="text" name="title" id="title"></p>
+                        <p>Description: <input type="text" name="desc" id="desc"></p>
+                        <p>Submission Date: <input type="date" name="subdate" id="subdate"></p>
+                        <p>Oral Mark: <input type="number" min="0" max="20" step="1" name="omark" id="omark"></p>
+                        <p>Total Mark: <input type="number" min="0" max="100" step="1" name="tmark" id="tmark"></p>
+                        <div class="btn-wrapper">
+                            <button class="btn" onclick="AddHtmlTableRow();">Add</button>
+                            <button class="btn" onclick="editHtmlTableSelectedRow();">Update</button>
+                            <button class="btn" onclick="removeSelectedRow();">Remove</button>
+                        </div>
+                    </div>
+                    <div class="tab tab-2">
+                        <table id="table">
+                            <h1 class="main-header">Assignment Table</h1>
+                            <tr>
+                                <th>Assignment Title</th>
+                                <th>Descritpion</th>
+                                <th>Submission</th>
+                                <th>Oral Mark</th>
+                                <th>Total Mark</th>
+                            </tr>
+                        </table>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <script src="js/assignments.js"></script>
+    </body>
+</html>

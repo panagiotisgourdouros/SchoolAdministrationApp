@@ -1,0 +1,92 @@
+@import '../../styles/fonts.css';
+.main {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tab {
+    width: 90%;
+    background: #75A6CC;
+    border-radius: 25px;
+}
+.main-header {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Port Lligat Slab';
+    letter-spacing: 1.4px;
+    margin-bottom: 20px;
+}
+.tab-1 p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 200px 8px 60px;
+    font-size: 22px;
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+input[type=text], input[type=date], input[type=number], input[type=email], select {
+    width: 75%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.btn-wrapper .btn {
+    padding: 8px 15px;
+    font-size: 20px;
+    font-family: 'Rubik';
+    color: aliceblue;
+    background: #123b7971;
+    letter-spacing: 1.4px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.tab-2 {
+    margin-top: 30px;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    height: 50px;
+    background-color: #123b7971;
+    color: white;
+    font-size: 20px;
+    font-family: 'Rubik';
+    letter-spacing: 1.3px;
+}
+tr {
+    transition: all .25s ease-in-out;
+}
+tr:hover {
+    cursor: pointer;
+}
+td {
+    padding: 15px 25px 15px 25px;
+    text-align: left;
+    font-family: 'Rubik';
+    color: rgb(46, 34, 9);
+    font-size: 18px;
+}
+table {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

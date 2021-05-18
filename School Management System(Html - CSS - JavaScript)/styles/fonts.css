@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/rubik-v11-latin-regular.woff2') format('woff2'),
+         url('../fonts/rubik-v11-latin-regular.woff') format('woff');
+  }
+@font-face {
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/rubik-v11-latin-800italic.woff2') format('woff2'),
+         url('../fonts/rubik-v11-latin-800italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Port Lligat Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/port-lligat-slab-v9-latin-regular.woff2') format('woff2'),
+         url('../fonts/port-lligat-slab-v9-latin-regular.woff') format('woff');
+}
